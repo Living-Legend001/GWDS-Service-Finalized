@@ -490,7 +490,22 @@ h2 {
 }
 
 
+.email {
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	margin-left: 22px;
+}
 
+
+.fa-square-facebook {
+	color: blue;
+	float: right;
+	font-size: 35px;
+	margin-top: -20px;
+	margin-right: 60px;
+	padding-bottom: 55px;
+}
 
 
 
