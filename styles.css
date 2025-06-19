@@ -49,14 +49,17 @@ nav {
 ul {
 	
     float: right;
+    display: inline-block;
 }
 
 ul a {
+    display: inline-block;  
 	
 }
 
 
 ul li {
+     display: inline-block;
 	float: left;
 	list-style: none;
 	padding: 20px;
@@ -66,6 +69,7 @@ ul li {
 
 
 ul li a {
+     display: inline-block;
 	float: right;
 	text-decoration: none;
 	color: #fff;
@@ -80,6 +84,15 @@ ul li a:hover {
 	color: goldenrod;
     transform: scale(1.1);
 	transition: 0.4s;
+}
+
+
+
+.string {
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 90px;
 }
 
 
@@ -201,6 +214,7 @@ p {
     width: 60%;
     font-family: sans-serif;
     font-weight: 800;
+    font-size: 14px;
     border-radius: 10px;
 }
 
@@ -213,6 +227,7 @@ p {
     color: black;
     text-align: center;
     height: 300px;
+    font-size: 14px;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 60%;
@@ -222,14 +237,23 @@ p {
 }
 
 
+.good {
+    color: darkgreen;
+}
 
+
+.good2 {
+    color: darkgreen;
+}
 
 
 .container-extra {
     display: grid;
-    width: 100%;
+    justify-self: center;
+    width: 80%;
+    gap: -100px;
     grid-template-columns: 50% 50%;
-    margin-top: 260px;
+    margin-top: 140px;
     margin-bottom: -120px;
 }
 
@@ -332,7 +356,7 @@ p {
 
 
 .head2 {
-    color: antiquewhite;
+    color: goldenrod;
     font-family: sans-serif;
     font-weight: 800;
     font-size: 25px;
@@ -382,8 +406,9 @@ p {
 }
 
 .fa-block-question {
-     font-size: 39px;
-    padding-top: 25px;
+     font-size: 49px;
+    padding-top: 29px;
+    font-weight: 900;
 }
 
 
@@ -422,7 +447,7 @@ p {
 
 
 h2 {
-   
+    color: goldenrod;
     font-size: 25px; 
     text-align: center;
     font-weight: 800;
@@ -432,7 +457,7 @@ h2 {
 
 
 .head3 {
-    color: #fff;
+    color: goldenrod;
     text-align: center;
     font-weight: 800;
    margin-top: 1095px;
@@ -443,6 +468,7 @@ h2 {
 .main-container {
     margin-top: 100px;
     height: 600px;
+    margin-bottom: -90px;
 }
 
 
@@ -490,6 +516,29 @@ h2 {
 }
 
 
+.fa-square-facebook {
+	color: #0000ff;
+	font-size: 30px;
+   
+}
+
+
+
+.last-footer {
+	
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+    margin-top: 550px;
+    padding-top: -90x;
+	height: 60px;
+	background-color: black;
+}
+
+
+
+
+
 .email {
 	font-family: sans-serif;
 	font-size: 15px;
@@ -498,23 +547,7 @@ h2 {
 }
 
 
-.fa-square-facebook {
-	color: blue;
-	float: right;
-	font-size: 35px;
-	margin-top: -20px;
-	margin-right: 60px;
-	padding-bottom: 55px;
-}
 
-
-footer {
-	margin-top: 500px;
-	width: 100%;
-	overflow: hidden;
-	height: 75px;
-	background-color: goldenrod;
-}
 
 .end{
 	color: white;
@@ -531,12 +564,12 @@ footer {
 
 
 
-
-
-
-
-
-
+@media only screen and (max-width: 1111px) {
+.container-extra {
+    gap: 91px;
+    margin-left: -80px;
+}
+}
 
 
 @media only screen and (max-width: 1093px) {
@@ -745,6 +778,12 @@ ul li {
     padding-bottom: 5px;
      text-align: center;
 }
+
+.container-extra {
+    gap: -91px;
+    margin-left: -90px;
+    padding: -10px;
+}
 }
 
 
@@ -833,7 +872,7 @@ ul li {
 }
 
 .head2 {
-    color: antiquewhite;
+    color: goldenrod;
     font-family: sans-serif;
     font-weight: 800;
     font-size: 17px;
@@ -874,7 +913,7 @@ margin-top: 110px;
 .extra-eight {
     width: 95%;
     height: 170px;
-    margin-bottom: 4px;
+    margin-bottom: -75px;
 }
 
 .extra-nine {
@@ -1460,6 +1499,8 @@ ul li {
     margin-top: 2150px;
 }
 
+
+
 footer {
     margin-top: 120px;
 	width: 100%;
@@ -1471,7 +1512,7 @@ footer {
 .main-container {
     margin-top: -5px;
 }
-	
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -1483,17 +1524,6 @@ footer {
    padding: 15px;
 }
 
-
-
-	footer {
-    margin-top: 1600px;
-	width: 100%;
-	overflow: hidden;
-	height: 75px;
-	background-color: goldenrod;
-}
-
-	
 
     ul li {
 	margin-left: px;
@@ -1514,4 +1544,17 @@ footer {
 	color: rgb(210, 173, 78);
 	font-size: 12px;
 }
+
+
+.last-footer {
+	
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+    margin-top: 1610px;
+    padding-top: -90x;
+	height: 60px;
+	background-color: black;
+}
+
 }
