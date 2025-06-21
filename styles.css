@@ -1273,42 +1273,7 @@ ul li {
    padding: 15px;
 }
 
-.seek11hover {
-	
-     box-shadow: 0 0 0 2px  rgb(210, 173, 78);
-	background-color: whitesmoke;
-	cursor: pointer;
-	transform: scale(1.0);
-	z-index: 2s;
-}
 
-
-
-.seek22:hover {
-	
-     box-shadow: 0 0 0 2px  rgb(210, 173, 78);
-	background-color: whitesmoke;
-	cursor: pointer;
-	transform: scale(1.0);
-	z-index: 2s;
-}
-
-.seek33:hover {
-     box-shadow: 0 0 0 2px  rgb(210, 173, 78);
-	background-color: whitesmoke;
-	cursor: pointer;
-	transform: scale(1.0);
-	border-radius: 25px;
-	z-index: 2s;
-}
-
-.seek55:hover {
-     box-shadow: 0 0 0 2px  rgb(210, 173, 78);
-	background-color: whitesmoke;
-	cursor: pointer;
-	transform: scale(1.0);
-	z-index: 2s;
-}
 
 
 
